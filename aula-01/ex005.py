@@ -1,0 +1,7 @@
+medida = float(input('Distância em metros:'))
+print(f'Quilômetros: {medida / 1000:.5f}km')
+print(f'Hectômetros:{medida / 100:.4f}hm')
+print(f'Decâmetros: {medida / 10:.3f}dam')
+print(f'Decímetros: {medida * 10:.1f}dm')
+print(f'Centímetros {medida * 100:.1f}cm')
+print(f'Milímetros { medida *1000:.1f}mm')
